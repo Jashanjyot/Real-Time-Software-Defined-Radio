@@ -1,7 +1,39 @@
-## Real-time SDR for mono/stereo FM and RDS
+# Real-Time Software Defined Radio
 
-The main objective of the project is to navigate a complex speciﬁcation and to develop the understanding for the challenges that must be addressed for a real-time implementation of a computing system that operates in a form factor-constrained environment. 
+This project involves the development of a real-time Software Defined Radio (SDR) using a combination of C++ and Python. The system utilizes hardware components such as RF dongles, specifically with the Realtek RTL2832U chipset, and a Raspberry Pi for the implementation of an SDR capable of real-time reception. The primary focus is on capturing FM mono/stereo audio and digital data using the Radio Data System (RDS) protocol.
 
-The project description is available in the project [document](doc/3dy4-project-2023.pdf). The unique constraints for each group for different modes of operation (e.g., sample rates for different modes of operation) will be pushed [here](doc/3dy4-constraints-group-xx.pdf) after the repo has been imported.
+## Features
+- **RF Dongles and RTL2832U chipset:** The project leverages RF dongles equipped with the Realtek RTL2832U chipset for efficient radio frequency signal processing.
 
-All the source code for the project must be submitted before the end of March 31. The project cross-examinations and oral presentations will run in the week of April 4 and the detailed final project report is due on April 8. 
+- **Raspberry Pi Integration:** A Raspberry Pi serves as the central processing unit, providing the computational power required for real-time radio signal analysis.
+
+- **SDR Implementation:** The system is designed to function as a Software Defined Radio, allowing for the reception of FM mono/stereo audio and digital data.
+
+- **RDS Protocol:** The project incorporates the RDS protocol for extracting additional information from the radio signals, enhancing the overall user experience.
+
+- **Specialized Filtering Techniques:** To achieve optimal signal processing, the project applies specialized filtering techniques for the extraction, decimation, and demodulation of specific audio channels.
+
+## Dependencies
+- **RF Dongles with RTL2832U chipset**
+- **Raspberry Pi**
+- **C++ Compiler**
+- **Python Interpreter**
+- **SDR Libraries (e.g., GNU Radio)**
+- **Additional Python Libraries (as specified in requirements.txt)**
+
+## Usage
+1. **Hardware Setup:** Connect the RF dongles with the RTL2832U chipset to the Raspberry Pi.
+
+2. **Software Installation:**
+   - Install necessary dependencies using the provided requirements.txt file.
+   - Compile and execute the C++ components.
+
+3. **Run the SDR Application:** Launch the Python script to initialize the real-time Software Defined Radio.
+
+4. **Adjust Settings:** Modify parameters such as frequency, modulation type, and filtering options as needed.
+
+5. **Explore Results:** Experience real-time reception of FM mono/stereo audio and digital data using the implemented SDR, with additional information decoded through the RDS protocol.
+
+For detailed information and configuration options, please refer to the project documentation.
+
+**Note:** Ensure proper permissions and configurations for the RF dongles and Raspberry Pi to enable seamless functionality of the Software Defined Radio.
