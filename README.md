@@ -40,4 +40,4 @@ For detailed information and configuration options, please refer to the project 
 
 ## Acknowledgments
 
-This project integrates C++ for microcontroller functionality and Python for data processing to create a Real-Time Software Defined Radio. Utilizing RF dongles, Realtek RTL2832U chipset, and a Raspberry Pi, the system achieves real-time reception of FM audio and digital data with RDS protocol. Specialized filtering techniques are applied for efficient signal processing. Check the project [report](doc/COE-3DY4 Project Report.pdf) for specific components and constraints.
+This project integrates C++ for microcontroller functionality and Python for data processing to create a Real-Time Software Defined Radio. Utilizing RF dongles, Realtek RTL2832U chipset, and a Raspberry Pi, the system achieves real-time reception of FM audio and digital data with RDS protocol. Specialized filtering techniques are applied for efficient signal processing. Check the project [Report](doc/COE-3DY4%20Project%20Report.pdf) for specific components and constraints.
