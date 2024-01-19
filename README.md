@@ -37,3 +37,7 @@ This project involves the development of a real-time Software Defined Radio (SDR
 For detailed information and configuration options, please refer to the project documentation.
 
 **Note:** Ensure proper permissions and configurations for the RF dongles and Raspberry Pi to enable seamless functionality of the Software Defined Radio.
+
+## Acknowledgments
+
+This project integrates C++ for microcontroller functionality and Python for data processing to create a Real-Time Software Defined Radio. Utilizing RF dongles, Realtek RTL2832U chipset, and a Raspberry Pi, the system achieves real-time reception of FM audio and digital data with RDS protocol. Specialized filtering techniques are applied for efficient signal processing. Check the project report for specific components.
